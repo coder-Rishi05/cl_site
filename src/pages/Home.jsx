@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 import Offring from "./Offring";
+import Faq from "./Faq";
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
         </div>
       </main>
       <Offring />
+      <Faq />
     </div>
   );
 };
