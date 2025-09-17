@@ -2,6 +2,8 @@ import React from "react";
 import Nav from "./Nav";
 import Offring from "./Offring";
 import Faq from "./Faq";
+import Skip from "./Skip";
+import Funnel from "./Funnel";
 
 const Home = () => {
   return (
@@ -28,7 +30,8 @@ const Home = () => {
         </div>
       </main>
       <Offring />
-      <Faq />
+      <Skip />
+      <Funnel />
     </div>
   );
 };
