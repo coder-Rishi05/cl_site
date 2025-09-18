@@ -2,7 +2,7 @@ import React from "react";
 
 const Funnel = () => {
   return (
-    <div className="w-full h-screen flex flex-col lg:flex-row gap-6 ">
+    <div className="w-full  mb-10 flex flex-col lg:flex-row gap-6 ">
       <div className="top px-6  ">
         <h2 className="text-2xl text-blue-700">Our Proprietary</h2>
         <h1 className="text-3xl my-5 text-[#0F114D] font-bold">

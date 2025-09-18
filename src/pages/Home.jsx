@@ -4,6 +4,7 @@ import Offring from "./Offring";
 import Faq from "./Faq";
 import Skip from "./Skip";
 import Funnel from "./Funnel";
+import Started from "./Started";
 
 const Home = () => {
   return (
@@ -32,6 +33,7 @@ const Home = () => {
       <Offring />
       <Skip />
       <Funnel />
+      <Started />
     </div>
   );
 };
