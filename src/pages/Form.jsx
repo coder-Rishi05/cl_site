@@ -4,7 +4,7 @@ const Form = () => {
   return (
     <div className="w-full bg-white py-8 px-10">
       <div className="top">
-        <h1 className="text-center font-medium text-blue-400 py-3 text-xl">
+        <h1 className="text-center font-medium text-[#756BEE] py-3 text-xl">
           For Special Requirement
         </h1>
         <h3 className="text-[#423385] font-bold  text-center text-4xl">
@@ -12,10 +12,10 @@ const Form = () => {
         </h3>
       </div>
       <form
-        className="border-1 my-10 flex flex-col px-4  py-4 gap-3 border-gray-200  rounded "
+        className="border-1 my-10 flex flex-col  px-4  py-4 gap-3 border-gray-200  rounded "
         action=""
       >
-        <label className="text-xs font-medium  uppercase text-blue-800">
+        <label className="text-xs font-medium  uppercase text-[#3F337B]">
           Website Url <sup>*</sup>{" "}
         </label>
         <input
@@ -23,7 +23,7 @@ const Form = () => {
           type="text"
           placeholder="example.ai"
         />
-        <label className="text-xs font-medium  uppercase text-blue-800">
+        <label className="text-xs font-medium  uppercase text-[#3F337B]">
           Official Email <sup>*</sup>{" "}
         </label>
         <input
@@ -31,7 +31,7 @@ const Form = () => {
           className="p-3 rounded-xl border-gray-100 focus:border-amber-500 border-2 foucs:border-none"
           placeholder="akshat@bizamps.com"
         />
-        <label className="text-xs font-medium  uppercase text-blue-800">
+        <label className="text-xs font-medium  uppercase text-[#3F337B]">
           Mobile Number <sup>*</sup>{" "}
         </label>
         <input
@@ -39,11 +39,11 @@ const Form = () => {
           type="text"
           placeholder="+1 510-443-NXYZ"
         />
-        <label className="text-xs font-medium  uppercase text-blue-800">
+        <label className="text-xs font-medium  uppercase text-[#3F337B]">
           Mention your goal
         </label>
         <textarea
-          className="p-3 rounded-xl border-gray-100 focus:border-amber-500 border-2 foucs:border-none"
+          className="p-3 resize-none rounded-xl border-gray-100 focus:border-amber-500 border-2 foucs:border-none"
           name=""
           id=""
           rows="5"

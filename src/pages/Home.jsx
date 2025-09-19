@@ -6,6 +6,7 @@ import Skip from "./Skip";
 import Funnel from "./Funnel";
 import Started from "./Started";
 import Form from "./Form";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -36,6 +37,7 @@ const Home = () => {
       <Funnel />
       <Started />
       <Form />
+      <Footer />
     </div>
   );
 };
