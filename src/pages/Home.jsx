@@ -5,6 +5,7 @@ import Faq from "./Faq";
 import Skip from "./Skip";
 import Funnel from "./Funnel";
 import Started from "./Started";
+import Form from "./Form";
 
 const Home = () => {
   return (
@@ -34,6 +35,7 @@ const Home = () => {
       <Skip />
       <Funnel />
       <Started />
+      <Form />
     </div>
   );
 };
