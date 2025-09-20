@@ -2,25 +2,29 @@ import React from "react";
 
 const Skip = () => {
   return (
-    <div className="w-full h-screen px-4 flex flex-col lg:flex-row mt-10 ">
-      <div className="top">
-        <h1 className="text-3xl px-4 text-[#423385] font-bold">
+    <div className="w-full h-screen px-4 md:px-2  flex flex-col lg:flex-row mt-10 ">
+      <div className="top md:pt-4">
+        <h1 className="text-3xl md:text-[2.5rem] px-4 text-[#423385] font-bold">
           You can skip us, if
         </h1>
-        <div className="texts py-4 mx-4">
-          <p className="text-3xl  ">
+        <div className="texts py-4  mx-4">
+          <p className="text-3xl text-[#3F337F]  ">
             1. If you don't believe in our 8-step approach{" "}
           </p>
-          <p className="text-3xl  ">
+          <p className="text-3xl text-[#3F337F] md:py-3  ">
             2. Founder/ Chief can't take out 4 hours/week.
           </p>
-          <p className="text-3xl  ">
+          <p className="text-3xl text-[#3F337F]  ">
             3. You don't have access to 3+ LinkedIn Accounts for Outreach
           </p>
         </div>
       </div>
-      <div className="Image w-full my-10 ">
-        <img className="w-full  " src="./Images/whyUs.png" alt="" />
+      <div className="Image w-full my-10 overflow-hidden ">
+        <img
+          className=" w-full md:scale-[2]  md:relative md:-translate-x-1/2 md:left-[120%] md:top-[90%] md:-translate-y-1/2"
+          src="./Images/whyUs.png"
+          alt=""
+        />
       </div>
     </div>
   );
