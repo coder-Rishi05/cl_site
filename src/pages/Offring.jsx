@@ -2,14 +2,14 @@ import React from "react";
 
 const Offring = () => {
   return (
-    <div className="w-full  px-5  ">
-      <div className="top">
+    <div className="w-full bg-green-400 px-5  ">
+      <div className="top md:pt-12">
         <h2 className="text-2xl">Our</h2>
-        <h1 className="text-4xl mt-5 text-ubuntu font-bold text-[#423385]">
+        <h1 className="text-4xl md:text-5xl mt-5 text-ubuntu font-bold text-[#423385]">
           Offrings
         </h1>
       </div>
-      <div className="boxes w-full  my-10 py-10  flex items-center flex-col gap-5 lg:flex-row">
+      <div className="boxes w-full  my-10 py-10 md:py-2  flex items-center flex-col gap-5 lg:flex-row">
         <div className="left  rounded-4xl bg-[#DAD1FF]">
           <div className="center flex   flex-col gap-2 py-8 px-10  ">
             <h1 className="text-3xl  font-bold">Setup & Stretagy</h1>

@@ -12,19 +12,19 @@ const Home = () => {
   return (
     <div className="  w-full  bg-[#654ecd1a] ">
       <Nav />
-      <main className="flex flex-col h-full w-screen items-center lg:flex-row justify-between">
-        <div className="left">
-          <h1 className="text-[#423385] text-[2.4rem] px-5 leading-[3rem] py-8 font-ubuntu font-bold tracking-tight text-center ">
+      <main className="flex flex-col h-full w-full items-center md:flex-col-reverse lg:flex-row justify-between">
+        <div className="left w-full  px-10 ">
+          <h1 className="text-[#423385] md:text-6xl md:leading-[4.5rem] md:px-20 text-[2.4rem] leading-[3rem] py-8 font-ubuntu font-bold tracking-tight text-center ">
             Never Have a Empty Sales Pipeline!
           </h1>
-          <p className="text-3xl px-6 text-[#423385] leading-4xl text-center">
+          <p className="text-3xl px-6 text-[#423385] md:px-20  leading-4xl text-center">
             Imagine having a People-Independent B2B LeadGen Engine using AI
           </p>
-          <button className="px-6 py-4 my-12 text-2xl  font-medium text-center border-1 rounded-3xl mx-6 border-[#f87661] text-[#f87661]">
+          <button className="px-6 py-4 my-12 text-2xl  md:mx-20  font-medium text-center border-1 rounded-full mx-6 border-[#f87661] text-[#f87661]">
             See the 8-Step Revenue System Design
           </button>
         </div>
-        <div className="right  w-full mt-20 px-5  ">
+        <div className="right  w-full md:w-1/2  mt-20 md:px-1 px-5  ">
           <img
             className="object-fit object-center w-full"
             src="./Images/rightImg.png"
