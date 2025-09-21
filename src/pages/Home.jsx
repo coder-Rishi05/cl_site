@@ -10,9 +10,9 @@ import Footer from "./Footer";
 
 const Home = () => {
   return (
-    <div className="  w-full  bg-[#654ecd1a] ">
+    <div className=" w-full  bg-[#654ecd1a] ">
       <Nav />
-      <main className="flex flex-col h-full w-full items-center md:flex-col-reverse lg:flex-row justify-between">
+      <main className="flex flex-col h-full w-full items-center mySM:flex-col-reverse md:flex-col-reverse lg:flex-row justify-between">
         <div className="left w-full  px-10 ">
           <h1 className="text-[#423385] md:text-6xl md:leading-[4.5rem] md:px-20 text-[2.4rem] leading-[3rem] py-8 font-ubuntu font-bold tracking-tight text-center ">
             Never Have a Empty Sales Pipeline!
