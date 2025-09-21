@@ -1,7 +1,3 @@
-import React from "react";
-import { IoReorderThree } from "react-icons/io5";
-// import {IoReorderThreeOutline} from 'react-icons'
-
 const Nav = () => {
   return (
     <nav className="py-6 px-4 w-full bg-black md:py-8 myMD:bg-[#0F063C]   flex items-center justify-between">
