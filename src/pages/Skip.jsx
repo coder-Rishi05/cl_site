@@ -21,7 +21,7 @@ const Skip = () => {
       </div>
       <div className="Image w-full my-10 overflow-hidden ">
         <img
-          className=" w-full md:scale-[2]  md:relative md:-translate-x-1/2 md:left-[120%] md:top-[90%] md:-translate-y-1/2"
+          className=" w-full md:scale-[2] myMD:scale-[1.3] myMD:translate-x-1/4  md:relative md:-translate-x-1/2 md:left-[120%] md:top-[90%] md:-translate-y-1/2"
           src="./Images/whyUs.png"
           alt=""
         />
