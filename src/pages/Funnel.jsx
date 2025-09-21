@@ -1,5 +1,3 @@
-import React from "react";
-
 const Funnel = () => {
   return (
     <div className="w-full  mb-10 flex bg-green-400 flex-col lg:flex-row gap-6 ">

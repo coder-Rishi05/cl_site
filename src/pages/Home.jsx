@@ -20,11 +20,11 @@ const Home = () => {
           <p className="text-3xl px-6 text-[#423385] md:px-20  leading-4xl text-center">
             Imagine having a People-Independent B2B LeadGen Engine using AI
           </p>
-          <button className="px-6 py-4 my-12 text-2xl  md:mx-20  font-medium text-center border-1 rounded-full mx-6 border-[#f87661] text-[#f87661]">
+          <button className="px-4 md:px-6 md:relative md:top-1/2 md:left-1/2 md:-translate-y-1/2 md:-translate-x-1/2  py-3 mt-16  text-2xl   font-medium text-center border-1 rounded-4xl  border-[#f87661] text-[#f87661]">
             See the 8-Step Revenue System Design
           </button>
         </div>
-        <div className="right  w-full md:w-1/2  mt-20 md:px-1 px-5  ">
+        <div className="right  w-full md:w-1/2  md:px-1 px-5  ">
           <img
             className="object-fit object-center w-full"
             src="./Images/rightImg.png"

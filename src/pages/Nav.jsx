@@ -4,8 +4,8 @@ import { IoReorderThree } from "react-icons/io5";
 
 const Nav = () => {
   return (
-    <nav className="py-6 px-4 w-full bg-black md:py-6   flex items-center justify-between">
-      <div className="left px-4  md:px-2  w-1/2 h-full">
+    <nav className="py-6 px-4 w-full bg-black md:py-8   flex items-center justify-between">
+      <div className="left px-4  md:px-3  w-1/2 h-full">
         <img
           className="object-cover md:w-[8rem]  object-center w-full"
           src="./Images/logo.png"
