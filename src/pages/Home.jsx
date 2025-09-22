@@ -37,7 +37,7 @@ const Home = () => {
       <Funnel />
       <Started />
       <Form />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
