@@ -7,12 +7,12 @@ const Nav = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-black lg:bg-[#0F063C]">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 2xl:px-12">
+      <nav className="   mx-auto px-4 sm:px-6 lg:px-8 2xl:px-24">
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
             <img
-              className="h-8 sm:h-10 lg:h-12 2xl:h-14 w-auto object-contain"
+              className="h-8 sm:h-10 lg:h-12 2xl:h-10 w-auto object-contain"
               src="./Images/logo.png"
               alt="Logo"
             />
