@@ -1,37 +1,73 @@
 import React from "react";
 import Nav from "./Nav";
 import Offring from "./Offring";
-import Faq from "./Faq";
 import Skip from "./Skip";
 import Funnel from "./Funnel";
 import Started from "./Started";
 import Form from "./Form";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 const Home = () => {
   return (
-    <div className=" w-full  bg-[#654ecd1a] ">
+    <div className="w-full bg-[#654ecd1a]">
       <Nav />
-      <main className="flex myMD:my-14 flex-col h-full w-full myMD:flex-row  items-center mySM:flex-col-reverse md:flex-col-reverse lg:flex-row justify-between">
-        <div className="left w-full myMD:px-5  px-10 ">
-          <h1 className="text-[#423385] md:text-6xl myMD:text-6xl myMD:leading-[4rem] md:leading-[4.5rem] md:px-20 myMD:px-0  text-[2.4rem] leading-[3rem] py-8 font-ubuntu font-bold tracking-tight text-center myMD:text-start ">
-            Never Have a Empty Sales Pipeline!
-          </h1>
-          <p className="text-3xl myMD:px-0 myMD:text-start px-6 text-[#423385] md:px-20  leading-4xl text-center">
-            Imagine having a People-Independent B2B LeadGen Engine using AI
-          </p>
-          <button className="px-4 md:px-6 myMD:px-8 md:relative md:top-1/2 md:left-1/2 md:-translate-y-1/2 md:-translate-x-1/2  py-3 my-10  text-2xl myMD:text-start   font-medium text-center border-1 rounded-4xl  border-[#f87661] text-[#f87661]">
-            See the 8-Step Revenue System Design
-          </button>
+
+      {/* ── HERO ─────────────────────────────────────────────── */}
+      <section className="px-4 sm:px-6 lg:px-12 xl:px-24 2xl:px-32 pt-10 pb-16 lg:pt-20 lg:pb-28">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+          {/* LEFT: COPY BLOCK */}
+          <div className="flex flex-col justify-center text-center lg:text-left">
+            <h1
+              className="text-[#423385] font-ubuntu font-bold
+                           text-4xl  sm:text-5xl  lg:text-6xl  xl:text-7xl  2xl:text-8xl
+                           leading-tight lg:leading-[1.15]"
+            >
+              Never Have a
+              <br />
+              Empty Sales
+              <br />
+              Pipeline!
+            </h1>
+
+            <p
+              className="text-[#423385]
+                          text-lg  sm:text-xl  lg:text-2xl  xl:text-3xl
+                          mt-4 lg:mt-6 max-w-xl mx-auto lg:mx-0"
+            >
+              Imagine having a People-Independent
+              <br />
+              B2B LeadGen Engine using AI
+            </p>
+
+            <div className="mt-8 lg:mt-10">
+              <button
+                className="inline-flex items-center justify-center
+                                px-6  sm:px-8  lg:px-10  py-3  sm:py-4
+                                text-lg  sm:text-xl  lg:text-2xl
+                                font-semibold
+                                border-2 border-[#f87661] text-[#f87661]
+                                rounded-full
+                                hover:bg-[#f87661] hover:text-white
+                                transition-all duration-300"
+              >
+                See the 8-Step Revenue System Design
+              </button>
+            </div>
+          </div>
+
+          {/* RIGHT: IMAGE */}
+          <div className="flex justify-center lg:justify-end">
+            <img
+              src="./Images/rightImg.png"
+              alt="Sales Pipeline"
+              className="w-full max-w-md  sm:max-w-lg  lg:max-w-full  lg:w-[90%]
+                         h-auto object-contain"
+            />
+          </div>
         </div>
-        <div className="right  w-full md:w-1/2  md:px-1 px-5  ">
-          <img
-            className="object-fit object-center w-full"
-            src="./Images/rightImg.png"
-            alt=""
-          />
-        </div>
-      </main>
+      </section>
+
+      {/* ── REST OF PAGE ──────────────────────────────────────── */}
       <Offring />
       <Skip />
       <Funnel />

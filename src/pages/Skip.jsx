@@ -7,6 +7,7 @@ const Skip = () => {
         <h1 className="text-3xl md:text-[2.5rem] px-4 text-[#423385] font-bold">
           You can skip us, if
         </h1>
+
         <div className="texts py-4 mx-4">
           <p className="text-3xl text-[#3F337F]">
             1. If you don't believe in our 8-step approach
@@ -20,13 +21,31 @@ const Skip = () => {
         </div>
       </div>
 
-      {/* IMAGE CONTAINER WITH FIXED OVERFLOW */}
-      <div className="relative w-full my-10 overflow-hidden ">
-        <img
-          className="w-full myMD:w-[60%] lg:w-[50%] md:w-[80%]  md:scale-[2] myMD:scale-[1.3] myMD:translate-x-1/4 md:relative md:-translate-x-1/2 md:left-[110%] md:top-[90%] md:-translate-y-1/2"
-          src="./Images/whyUs.png"
-          alt="Why Us"
-        />
+      {/* =============================
+          FIX: outer wrapper has overflow-hidden,
+          inner wrapper defines the clipping box (height).
+          Image is positioned absolute inside it and scaled.
+         ============================= */}
+      <div className="relative w-full my-10 overflow-hidden bg-green-400">
+        {/* IMPORTANT: this inner div *defines* the clipping area on each breakpoint */}
+        <div className="relative w-full h-64 md:h-[520px] lg:h-[680px]">
+          <img
+            src="./Images/whyUs.png"
+            alt="Why Us"
+            className="
+              absolute
+              top-1/2 left-1/2                 /* center reference point */
+              md:left-[110%]                   /* your original right shift on md */
+              transform
+              -translate-x-1/2 -translate-y-1/2 /* center by offset */
+              md:-translate-x-1/2 md:-translate-y-1/2
+              md:scale-[2] lg:scale-[2.2]      /* scaling on md/lg as you wanted */
+              w-auto md:w-[80%]                /* keep width behavior */
+              object-contain
+              transition-transform duration-500
+            "
+          />
+        </div>
       </div>
     </div>
   );
