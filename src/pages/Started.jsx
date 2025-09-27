@@ -2,7 +2,7 @@ import React from "react";
 
 const Started = () => {
   return (
-    <section className="relative w-full min-h-screen flex items-center justify-center bg-pink-100/45">
+    <section className="relative w-full min-h-screen  flex items-center justify-center bg-pink-100/45">
       {/* Background image with overlay */}
       <div
         className="absolute inset-0 bg-center bg-cover bg-no-repeat bg-[url('./Images/bgImage.png')]"
@@ -23,9 +23,9 @@ const Started = () => {
           </p>
 
           {/* Video Card */}
-          <div className="mt-8 sm:mt-10 lg:mt-12 rounded-2xl overflow-hidden border border-white/30 bg-white/10 backdrop-blur-sm shadow-2xl">
+          <div className="mt-8 sm:mt-10 lg:mt-12 lg:scale-[1.12] rounded-2xl overflow-hidden border border-white/30 bg-white/10 backdrop-blur-sm shadow-2xl">
             <img
-              className="w-full h-auto object-cover"
+              className="w-full  h-auto object-cover"
               src="https://global.divhunt.com/892d0aa9a3db619cf25505cff3733756_1560837.gif"
               alt="Demo video"
             />

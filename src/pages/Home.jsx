@@ -5,6 +5,7 @@ import Skip from "./Skip";
 import Funnel from "./Funnel";
 import Started from "./Started";
 import Form from "./Form";
+import Footer from "./Footer"
 // import Footer from "./Footer";
 
 const Home = () => {
@@ -74,6 +75,7 @@ const Home = () => {
       <Started />
       <Form />
       {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
