@@ -2,7 +2,7 @@ import React from "react";
 
 const Offring = () => {
   return (
-    <section className="w-full py-12 px-4 sm:px-6 lg:px-12 2xl:px-20">
+    <section id="services" className="w-full py-12 px-4 sm:px-6 lg:px-12 2xl:px-20">
       {/* Header */}
       <div className="px-2">
         <h2 className="text-xl sm:text-2xl text-gray-700">Our</h2>

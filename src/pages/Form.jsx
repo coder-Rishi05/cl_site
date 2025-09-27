@@ -3,7 +3,7 @@ import React from "react";
 const Form = () => {
   return (
     <>
-      <div className="w-full flex flex-col items-center  bg-white py-8 px-10">
+      <div id="contact" className="w-full flex flex-col items-center  bg-white py-8 px-10">
         <div className="top">
           <h1 className="text-center font-medium text-[#756BEE] py-3 text-xl">
             For Special Requirement

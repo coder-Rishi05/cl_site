@@ -14,7 +14,7 @@ const Home = () => {
       <Nav />
 
       {/* ── HERO ─────────────────────────────────────────────── */}
-      <section className="px-4 sm:px-6 lg:px-12 xl:px-24 2xl:px-32 pt-10 pb-16 lg:pt-20 lg:pb-28">
+      <section id="home" className="px-4 sm:px-6 lg:px-12 xl:px-24 2xl:px-32 pt-10 pb-16 lg:pt-20 lg:pb-28">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* LEFT: COPY BLOCK */}
           <div className="flex flex-col justify-center text-center lg:text-left">
